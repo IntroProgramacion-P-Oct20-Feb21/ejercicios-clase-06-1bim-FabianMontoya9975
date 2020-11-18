@@ -48,7 +48,8 @@ public class UsoSwitch2 {
                 break;
                 
             case 4:
-                System.out.printf("Día %d es %s\n", numeroDia, "Jueves");
+                String m = "Jueves";
+                System.out.printf("Día %d es %s\n", numeroDia, m);
                 break;
             
             case 5:

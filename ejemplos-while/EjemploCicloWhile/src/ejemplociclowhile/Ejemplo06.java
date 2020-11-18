@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package manejowhile;
+package ejemplociclowhile;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -36,6 +36,7 @@ public class Ejemplo06 {
             // proceso para salir del ciclo.
             System.out.println("Ingrese el valor de -1 para salir del ciclo\n");
             int temporal = entrada.nextInt();
+            
             if(temporal==-1){
                 bandera = false;
             }

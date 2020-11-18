@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package manejowhile;
+package ejemplociclowhile;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -34,7 +34,7 @@ public class Ejemplo09 {
         while (contador <= 12){
             operacion = tabla * contador;
             
-            System.out.printf("%s%d*%d=%d\n", 
+            System.out.printf("%s %d * %d = %d\n", 
                     cadena, 
                     tabla, 
                     contador,
