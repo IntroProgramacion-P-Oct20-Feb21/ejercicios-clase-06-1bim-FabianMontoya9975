@@ -32,7 +32,7 @@ public class Ejemplo06 {
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
             suma_total = suma_total + calificacion;
-                       
+
             // proceso para salir del ciclo.
             System.out.println("Ingrese el valor de -1 para salir del ciclo\n");
             int temporal = entrada.nextInt();
@@ -41,7 +41,7 @@ public class Ejemplo06 {
                 bandera = false;
             }
         }
-        
+      
         System.out.printf("Suma de calificaciones es %.2f\n", suma_total);
         
     }
